@@ -1,0 +1,107 @@
+/* Part I */
+.column  {
+    border:2px solid black;
+    padding: 0 5px 0 5px;
+}
+
+
+
+.container{
+    margin:2rem;
+    padding:1rem;
+    display: block;
+    grid-gap:15px;
+
+}
+
+
+@media all and (min-width: 769px){
+    .container{ 
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+}
+
+/* Part II */
+
+.main{
+    background-color: rgb(255, 185, 56);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:70%;
+    padding: 5px;
+}
+
+#email{
+    width:99%;
+    border-radius: 3px;
+   
+}
+
+#emailHelp{
+    color:gray;
+    margin-bottom: 10px;
+}
+
+#passwd{
+    width:99%;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+#keep{
+    margin-bottom: 15px;
+}
+
+#dropdown{
+    width:99.5%;
+    border-radius: 3px;
+}
+
+.radio{
+   display: inline-block;
+   margin-bottom: 10px;
+
+}
+
+
+
+
+
+.submit{
+    color:white;
+    background-color: rgb(57, 93, 255);
+    height: 25px;
+}
+
+.clear{
+    border-color: red;
+    color:red;
+    background-color: rgb(255, 185, 56);
+    height: 25px;
+}
+
+
+/* Part III */
+
+
+#table{
+    width:90%;
+    margin: 2rem;
+    border-collapse: collapse;
+    
+}
+
+td , th{
+    padding:0.70rem;
+}
+
+
+.gray{
+    background-color: rgb(233, 233, 233);
+}
+
+.hrline{
+    border-bottom: 2px solid black;
+}
+

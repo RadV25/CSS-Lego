@@ -9,10 +9,10 @@
 </head>
 <body>
     <div>
-        <div>
+        <div class="container">
             <div>
-                <div>
-                    <div>
+                <div >
+                    <div class=" column" >
                         <h2>Column 1 of 3</h2>
                         <div>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita minima placeat quae natus obcaecati? Repudiandae eaque illum tempore porro. Est culpa commodi quibusdam, eos minus asperiores iusto quos laboriosam provident.</p>
@@ -25,7 +25,7 @@
             </div>
             <div>
                 <div>
-                    <div >
+                    <div class="column">
                         <h2>Column 2 of 3</h2>
                         <div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut perspiciatis reiciendis facere quasi molestiae at autem incidunt ab cum nostrum quam rerum similique eius et blanditiis quibusdam ipsa, officia quo!</p>
@@ -38,7 +38,7 @@
             </div>
             <div>
                 <div>
-                    <div>
+                    <div class="column">
                         <h2>Column 3 of 3</h2>
                         <div>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis beatae repellat cum voluptatum, similique ratione nemo! Praesentium inventore quos fugiat. Atque autem eligendi eum voluptates neque possimus voluptate ratione perspiciatis.</p>
@@ -51,24 +51,24 @@
             </div>
         </div>
         <div>
-            <div>
+            <div class="main">
                 <h3>Register now!</h3>
                 <form>
                     <div>
-                        <label for="email">Email address</label>
-                        <input type="email" id="email" aria-describedby="emailHelp">
+                        <label for="email"><b>Email address</b></label><br>
+                        <input type="email" id="email" aria-describedby="emailHelp"><br>
                         <div id="emailHelp">We'll never share your email with anyone else.</div>
                     </div>
                     <div>
-                        <label for="passwd">Password</label>
+                        <label for="passwd"><b>Password</b></label><br>
                         <input type="password" id="passwd">
                     </div>
                     <div>
                         <input type="checkbox" id="keep">
-                        <label for="keep">Keep me logged in</label>
+                        <label for="keep"><b>Keep me logged in</b></label><br>
                     </div>
                     <div>
-                        <label for="dropdown" >Preference</label>
+                        <label for="dropdown"><b>Preference</b></label><br> 
                         <select id="dropdown" aria-label=".form-select-sm example">
                             <option selected="">Open this select menu</option>
                             <option value="1">I like this</option>
@@ -77,31 +77,33 @@
                         </select>
                     </div>
                     <div>
-                        <p>There are some other options:</p>
-                        <div><input type="radio" name="radios" id="radio-1" checked=""><label for="radio-1">Option 1</label></div>
-                        <div><input type="radio" name="radios" id="radio-2"><label for="radio-2">Option 2</label></div>
-                        <div><input type="radio" name="radios" id="radio-3"><label for="radio-3">Option 3</label></div>
+                        <p><b>There are some other options:</b></p>
+                        <div class="radio"><input type="radio" name="radios" id="radio-1" checked=""><label for="radio-1">Option 1</label></div>
+                        <div class="radio"><input type="radio" name="radios" id="radio-2"><label for="radio-2">Option 2</label></div>
+                        <div class="radio"><input type="radio" name="radios" id="radio-3"><label for="radio-3">Option 3</label></div>
                     </div>
-                    <button type="submit">Submit</button>
-                    <button type="cancel">Clear</button>
+                    <button class="submit" type="submit">Submit</button>
+                    <button class="clear" type="cancel">Clear</button>
                 </form>
             </div>
         </div>
     </div>
     <div>
-        <table>
-            <thead>
+        <table id="table">
+            <thead class="hrline">
                 <tr>
                     <th scope="col">Some</th>
                     <th scope="col">tabulated</th>
                     <th scope="col">data</th>
                     <th scope="col">goes</th>
                     <th scope="col">here</th>
+                  
                 </tr>
+               
             </thead>
-            <tbody>
-                <tr>
-                    <th>Row 1</th>
+            <tbody class="body">
+                <tr class="gray">
+                    <th >Row 1</th>
                     <td>Lorem.</td>
                     <td>Beatae?</td>
                     <td>Quibusdam.</td>
@@ -114,7 +116,7 @@
                     <td>Iure.</td>
                     <td>Accusamus?</td>
                 </tr>
-                <tr>
+                <tr class="gray">
                     <th>Row 3</th>
                     <td>Lorem.</td>
                     <td>Suscipit!</td>
@@ -128,8 +130,8 @@
                     <td>Non.</td>
                     <td>Nam!</td>
                 </tr>
-                <tr>
-                    <th>Row 5</th>
+                <tr class="gray">
+                    <th >Row 5</th>
                     <td>Lorem.</td>
                     <td>Ratione?</td>
                     <td>Quaerat?</td>
@@ -142,7 +144,7 @@
                     <td>Ipsam!</td>
                     <td>Necessitatibus.</td>
                 </tr>
-                <tr>
+                <tr  class="gray">
                     <th>Row 7</th>
                     <td>Lorem.</td>
                     <td>Amet.</td>
